@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container" id="main-container">
+    <div class="container" id="domodachi-container">
+        <div class="container" id="domodachi-home">
+            <img src="~/images/sneasel.gif" id="domodachi">
+            <h5 class="stats">Stats: </h5>
+            <p class="stats">Fullness: @ViewBag.Fullness</p>
+            <p class="stats">Happiness: @ViewBag.Happiness</p>
+            <p class="stats">Meals: @ViewBag.Meals</p>
+            <p class="stats">Energy: @ViewBag.Energy</p>
+            <p class="stats">@ViewBag.Message</p>
+        </div>
+        <div class="btn-group btn-group-lg" id="domodachi-buttons">
+            <a href="/feed" class="button"><button type="button" class="btn btn-danger">Feed</button></a>
+            <a href="/play" class="button"><button type="button" class="btn btn-danger">Play</button></a>
+            <a href="/work" class="button"><button type="button" class="btn btn-danger">Work</button></a>
+            <a href="/sleep" class="button"><button type="button" class="btn btn-danger">Sleep</button></a>
+        </div>
+    </div>
+    
+</div>

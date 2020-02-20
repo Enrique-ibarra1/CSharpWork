@@ -1,0 +1,11 @@
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\bin\Debug\netcoreapp2.2\Fundamentals.deps.json
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\bin\Debug\netcoreapp2.2\Fundamentals.runtimeconfig.json
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\bin\Debug\netcoreapp2.2\Fundamentals.runtimeconfig.dev.json
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\bin\Debug\netcoreapp2.2\Fundamentals.dll
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\bin\Debug\netcoreapp2.2\Fundamentals.pdb
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\obj\Debug\netcoreapp2.2\Fundamentals.csprojAssemblyReference.cache
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\obj\Debug\netcoreapp2.2\Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\obj\Debug\netcoreapp2.2\Fundamentals.AssemblyInfoInputs.cache
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\obj\Debug\netcoreapp2.2\Fundamentals.AssemblyInfo.cs
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\obj\Debug\netcoreapp2.2\Fundamentals.dll
+C:\Users\rique\projects\codingdojo\c_sharp\Fundamentals\obj\Debug\netcoreapp2.2\Fundamentals.pdb

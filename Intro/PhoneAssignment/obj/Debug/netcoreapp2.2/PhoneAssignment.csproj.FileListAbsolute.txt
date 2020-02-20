@@ -1,0 +1,11 @@
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\bin\Debug\netcoreapp2.2\PhoneAssignment.deps.json
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\bin\Debug\netcoreapp2.2\PhoneAssignment.runtimeconfig.json
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\bin\Debug\netcoreapp2.2\PhoneAssignment.runtimeconfig.dev.json
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\bin\Debug\netcoreapp2.2\PhoneAssignment.dll
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\bin\Debug\netcoreapp2.2\PhoneAssignment.pdb
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\obj\Debug\netcoreapp2.2\PhoneAssignment.csprojAssemblyReference.cache
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\obj\Debug\netcoreapp2.2\PhoneAssignment.csproj.CoreCompileInputs.cache
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\obj\Debug\netcoreapp2.2\PhoneAssignment.AssemblyInfoInputs.cache
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\obj\Debug\netcoreapp2.2\PhoneAssignment.AssemblyInfo.cs
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\obj\Debug\netcoreapp2.2\PhoneAssignment.dll
+C:\Users\rique\projects\codingdojo\c_sharp\PhoneAssignment\obj\Debug\netcoreapp2.2\PhoneAssignment.pdb

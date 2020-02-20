@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heres some food i made this weekend among others...</h1>
+    @{
+        List<string> StringList = new List<string>
+            {
+                "Carnitas",
+                "Cinnimon roll casserole",
+                "Tacos",
+                "Loaded chicken bacon tater tots",
+                "Cool whip"
+            };
+
+        foreach(string food in StringList)
+        {
+            @if(@food[0] == 'C')
+            {
+                <p style="color: red;">@food</p>
+            }
+            else
+            {
+                <p>@food</p>
+            }
+        }
+    }
+    
+</body>
+</html>

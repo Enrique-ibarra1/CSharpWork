@@ -1,0 +1,23 @@
+@model Chef
+<div class="Jumbotron">
+    <h1>Add a chef</h1>
+    <p><a asp-action="Index">Home</a></p>
+</div>
+<form class="col-5" asp-action="AddChef" asp-controller="Home">
+    <div class="form-group">
+        <span asp-validation-for="FirstName"></span><br>
+        <label asp-for="FirstName">Chef's First Name:</label>
+        <input asp-for="FirstName" class="form-control">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="LastName"></span><br>
+        <label asp-for="LastName">Chef's Last Name:</label>
+        <input asp-for="LastName" class="form-control">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="BirthDate"></span><br>
+        <label asp-for="BirthDate">Chef's Date of Birth</label>
+        <input type="date" asp-for="BirthDate" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Add Chef!</button>
+</form>

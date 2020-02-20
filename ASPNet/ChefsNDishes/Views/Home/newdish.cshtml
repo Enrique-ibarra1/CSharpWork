@@ -1,0 +1,42 @@
+@model Dish
+<div class="Jumbotron">
+    <h1>Add a chef</h1>
+    <p><a asp-action="Index">Home</a></p>
+</div>
+<form class="col-5" asp-action="AddDish" asp-controller="Home">
+    <div class="form-group">
+        <span asp-validation-for="Name"></span><br>
+        <label asp-for="Name">Name of Meal:</label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Calories"></span><br>
+        <label asp-for="Calories">Calories per serving</label>
+        <input type="number" asp-for="Calories" class="form-control">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Description"></span><br>
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="ChefId">Cook</label>
+        <select asp-for="ChefId">
+            @foreach (var c in ViewBag.ChefRoster)
+            {
+                <option value="@c.ChefId">@c.FirstName</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tastiness">Tastiness</label>
+        <select asp-for="Tastiness">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Dish</button>
+</form>

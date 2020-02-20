@@ -1,0 +1,31 @@
+@model User
+<div class="container">
+    <h1>PLEASE FILL OUT THIS SURVERY</h1>
+    <form action="/process" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" name="name"><br>
+
+        <label for="location">Dojo Location: </label>
+        <select name="location">
+            <option value="Chicago">Chicago</option>
+            <option value="Houston">Houston</option>
+            <option value="Austin">Austin</option>
+            <option value="Phoenix">Phoenix</option>
+            <option value="New York">New York</option>
+        </select><br>
+
+        <label for="language">Fav language: </label>
+        <select name="language">
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+            <option value="Javascript">Javascript</option>
+            <option value="C++">C++</option>
+            <option value="Ruby">Ruby</option>
+        </select><br>
+
+        <label for="comments">Comments(optional): </label><br>
+        <textarea name="comments" cols="50" rows="5">
+        </textarea>
+        <input type="submit">
+    </form>
+</div>

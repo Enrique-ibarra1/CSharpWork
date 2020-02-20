@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<div class="form-group">
+    <h1 class="display-4">Enter your information: </h1>
+    <form asp-action="Register" asp-controller="Home">
+        <span asp-validation-for="FirstName"></span>
+        <div class="input-group mb-3">
+            <input asp-for="FirstName" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text">First Name</span>
+            </div>
+        </div>
+        <span asp-validation-for="LastName"></span>
+        <div class="input-group mb-3">
+            <input asp-for="LastName" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text">Last Name</span>
+            </div>
+        </div>
+        <span asp-validation-for="Age"></span>
+        <div class="input-group mb-3">
+            <input asp-for="Age" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text">Age</span>
+            </div>
+        </div>
+        <span asp-validation-for="Email"></span>
+        <div class="input-group mb-3">
+            <input asp-for="Email" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text">Email</span>
+            </div>
+        </div>
+        <span asp-validation-for="Password"></span>
+        <div class="input-group mb-3">
+            <input asp-for="Password" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text">Password</span>
+            </div>
+        </div>
+        <span asp-validation-for="ConfirmPassword"></span>
+        <div class="input-group mb-3">
+            <input asp-for="ConfirmPassword" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text">Confirm Password</span>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info">Register</button>
+
+        
+    </form>
+</div>

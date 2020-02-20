@@ -1,0 +1,11 @@
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\bin\Debug\netcoreapp2.2\Puzzles.deps.json
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\bin\Debug\netcoreapp2.2\Puzzles.runtimeconfig.json
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\bin\Debug\netcoreapp2.2\Puzzles.runtimeconfig.dev.json
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\bin\Debug\netcoreapp2.2\Puzzles.dll
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\bin\Debug\netcoreapp2.2\Puzzles.pdb
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\obj\Debug\netcoreapp2.2\Puzzles.csprojAssemblyReference.cache
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\obj\Debug\netcoreapp2.2\Puzzles.csproj.CoreCompileInputs.cache
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\obj\Debug\netcoreapp2.2\Puzzles.AssemblyInfoInputs.cache
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\obj\Debug\netcoreapp2.2\Puzzles.AssemblyInfo.cs
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\obj\Debug\netcoreapp2.2\Puzzles.dll
+C:\Users\rique\projects\codingdojo\c_sharp\Puzzles\obj\Debug\netcoreapp2.2\Puzzles.pdb

@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Chef>
+<div class="text-center">
+    <div class="nav">
+        <ul>
+            <li><a asp-action="Index">Chefs</a></li>
+            <li><a asp-action="Dishes">Dishes</a></li>
+        </ul>
+    </div>
+    <div class="Jumbotron">
+        <h1>Here is our roster of world class Chefs</h1>
+        <p><a asp-action="NewChef">Add Chef</a></p>
+    </div>
+    <div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Number of dishes</th>
+            </tr>
+        </thead>
+        @foreach (var c in Model)
+        {
+            DateTime today = DateTime.Today;
+            int age = today.Year - c.BirthDate.Year;
+            if(c.BirthDate.Date > today.AddYears(-age))
+            {
+                age--;
+            }
+        <tbody>
+            <tr>
+                <td>@c.FirstName @c.LastName</td>
+                <td>
+                    @age
+                </td>
+                <td>@c.CreatedDishes.Count</td>
+            </tr>
+        </tbody>
+        }
+    </table>
+</div>
+</div>

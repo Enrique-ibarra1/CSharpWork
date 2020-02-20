@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center" style="color: wheat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="card">
+            <img src="~/images/skeletor.jpg" alt="John" style="width:100%">
+            <h1>skeletor</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Coding Dojo</p>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal">Contact</button>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title" style="text-align: center;">Enter your information please</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form class="form-inline" action="/action_page.php">
+                                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                                <input type="text" class="form-control" placeholder="Name" id="name">
+                                <input type="text" class="form-control" placeholder="Phone Number" id="number">
+                            </form>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
